@@ -109,3 +109,132 @@
     background: url(../imgs/adbg_05.png) no-repeat;
     margin-right: 0;
 }
+
+#headSearch{
+    background-color: #fff;
+    padding: 24px 0 10px 0;
+}
+#headSearch h1 a{
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../imgs/logo.png) center no-repeat;
+    text-indent: -999999px;
+    overflow: hidden;
+}
+
+#headSearch .code{
+    width: 72px;
+    height: 86px;
+    border: 1px solid #eee;
+    position: relative;
+    margin-right: 110px;
+    text-align: center;
+}
+#headSearch .code img{
+    width: 62px;
+    height: 62;
+}
+#headSearch .close{
+    position: absolute;
+    top: -1px;
+    left: -16px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #ddd;
+    cursor: pointer;
+}
+/* 搜索框 */
+#headSearch .search{
+    width: 630px;
+    margin: 0 auto;
+}
+#headSearch .searchTab{
+    height: 20px;
+    padding-left: 17px;
+}
+#headSearch .searchTab li{
+    float: left;
+    width: 36px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 4px;
+    color: #f40;
+    cursor: pointer;
+}
+#headSearch .searchTab li:hover{
+    background-color: #ffeee5;
+}
+
+#headSearch .searchTab li.active{
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+    background-color: pink;
+    background-image: linear-gradient(to right,#ff9000, #ff5000 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+}
+#headSearch .searchContent{
+    height: 40px;
+}
+
+#headSearch .seasrchBox{
+    width: 554px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #f50;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+#headSearch .seasrchBox input{
+    width: 490px;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+#headSearch .placeholder{
+    position: absolute;
+    top: 6px;
+    left: 14px
+}
+#headSearch .placeholder span{
+    color: #9c9c9c;
+    vertical-align: 1px;
+}
+#headSearch .imgSearch{
+    position: absolute;
+    font-size: 28px;
+    right: 20px;
+    color: #9c9c9c;
+    top: -2px;
+    cursor: pointer;
+}
+#headSearch .searchContent button{
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-image: linear-gradient(to right,#ff9000, #ff5000 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+}
+#headSearch .hotKey{
+    height: 25px;
+    line-height: 25px;
+}
+#headSearch .hotKey a:hover{
+    color: #f50;
+}
