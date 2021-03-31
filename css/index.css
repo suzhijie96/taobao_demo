@@ -71,7 +71,41 @@
     width: 209px;
     height: 75px;
     margin-right: 10px;
+    padding: 12px 15px 0 15px;
+    box-sizing: border-box;
 }
+#headAd li h3{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#headAd li p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#headAd li a{
+    color: #fff;
+    display: block;
+}
+#headAd li a img{
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+}
+
 #headAd li.item0{
-    background-color: #eee;
+    background: url(../imgs/adbg_01.png) no-repeat;
+}
+#headAd li.item1{
+    background: url(../imgs/adbg_02.png) no-repeat;
+}
+#headAd li.item2{
+    background: url(../imgs/adbg_03.png) no-repeat;
+}
+#headAd li.item3{
+    background: url(../imgs/adbg_04.png) no-repeat;
+}
+#headAd li.item4{
+    background: url(../imgs/adbg_05.png) no-repeat;
+    margin-right: 0;
 }
