@@ -238,3 +238,35 @@
 #headSearch .hotKey a:hover{
     color: #f50;
 }
+/* 导航 */
+#nav h2{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #f50;
+}
+#nav ul{
+    margin-left: 190px;
+    overflow: hidden;
+    background-image: linear-gradient(to right,#ff9000, #ff5000 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+
+}
+#nav ul li{
+    float: left;
+    line-height: 30px;
+    margin: 0 7px;
+    font-size: 14px;
+    color: #fff;
+}
+#nav ul li.size{
+    font-size: 16px;
+}
+#nav ul li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
